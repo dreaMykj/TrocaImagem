@@ -5,11 +5,11 @@ document.getElementById("troca").addEventListener("click", (evt) => {
 
     const imagem = document.getElementById("mine");
 
-    if (currentIndex >= 15) {
+    if (currentIndex >= 5) {
 
         currentIndex = 0;
     }
-    
+
     imagem.src = `img/mine${currentIndex}.jpg`;
 
     currentIndex++;
